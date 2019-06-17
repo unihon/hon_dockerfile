@@ -5,5 +5,5 @@
 ###	How to use this image
 
 ``` bash
-docker run --name hexo-blog -v /my/blog:/root/blog -p 4000:4000 honhub/hexo-blog
+docker run --name hexo-blog -it -v /my/blog:/root/blog -p 4000:4000 honhub/hexo-blog
 ```
