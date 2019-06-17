@@ -7,4 +7,4 @@ if [ ! -d $BLOG_MODULE_PATH ]; then
 	npm update
 fi
 
-hexo s
+exec hexo s
